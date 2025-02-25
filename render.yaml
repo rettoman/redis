@@ -3,7 +3,3 @@ services:
   name: redis
   env: docker
   autoDeploy: false
-  disk:
-    name: data
-    mountPath: /var/lib/redis
-    sizeGB: 10
